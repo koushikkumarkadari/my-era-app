@@ -17,11 +17,17 @@
   background-color: white;
 }
 
-.sticker-btn,
+.sticker-btn{
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #e2e1e4;
+  cursor: pointer;
+  border-radius: 5px;
+}
 .download-btn {
   padding: 10px;
   border: 1px solid #ccc;
-  background: #ffffff;
+  background: #4d36a9;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -37,5 +43,5 @@
 
 .sticker-btn:hover,
 .download-btn:hover {
-  background: #e0e0e0;
+  background: #5315c5;
 }
