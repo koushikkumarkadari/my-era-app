@@ -1,0 +1,40 @@
+.app-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.canvas-container {
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.sticker-btn,
+.download-btn {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sticker-btn img {
+  display: block;
+}
+
+.download-btn {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sticker-btn:hover,
+.download-btn:hover {
+  background: #e0e0e0;
+}
